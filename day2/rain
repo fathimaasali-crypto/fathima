@@ -1,0 +1,9 @@
+rain=int(input("mm"))
+if rain<1 and rain>=0:
+    print("no rain",rain)
+elif rain<5 and rain>=1:
+    print(" light rain",rain)   
+elif rain<10 and rain>=5:
+    print(" moderate rain",rain)  
+else:
+    print(" heavy rain",rain)  

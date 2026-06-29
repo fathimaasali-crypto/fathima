@@ -1,0 +1,10 @@
+def longestcommon(str):
+    prefix=str[0]
+    
+#["flower","flow","fight"]
+    for s inn str[1:]:
+        while not s.startswith(prefix):
+            prefix=prefix[:-1]
+            if prefix=="":
+                return ""
+    return
